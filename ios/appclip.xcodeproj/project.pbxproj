@@ -13,7 +13,20 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-appclip-appclipTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-appclip-appclipTests.a */; };
+		79C5D6F5920475E153EFB53C /* libPods-appclip-RNClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931BC8FD8C9593306A896607 /* libPods-appclip-RNClip.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		85C8BD5D328019B55C4C66DD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 445299982B980FBCAA373608 /* PrivacyInfo.xcprivacy */; };
+		EFBEACB92C81A290001591CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACB82C81A290001591CD /* AppDelegate.m */; };
+		EFBEACBC2C81A290001591CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACBB2C81A290001591CD /* SceneDelegate.m */; };
+		EFBEACBF2C81A290001591CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACBE2C81A290001591CD /* ViewController.m */; };
+		EFBEACC22C81A290001591CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFBEACC12C81A290001591CD /* Base */; };
+		EFBEACC42C81A291001591CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBEACC32C81A291001591CD /* Assets.xcassets */; };
+		EFBEACC72C81A291001591CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFBEACC62C81A291001591CD /* Base */; };
+		EFBEACCA2C81A291001591CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACC92C81A291001591CD /* main.m */; };
+		EFBEACD52C81A291001591CD /* RNClipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACD42C81A291001591CD /* RNClipTests.m */; };
+		EFBEACDF2C81A291001591CD /* RNClipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACDE2C81A291001591CD /* RNClipUITests.m */; };
+		EFBEACE12C81A291001591CD /* RNClipUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBEACE02C81A291001591CD /* RNClipUITestsLaunchTests.m */; };
+		EFBEACE42C81A291001591CD /* RNClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = EFBEACB52C81A290001591CD /* RNClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +37,42 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = appclip;
 		};
+		EFBEACD12C81A291001591CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBEACB42C81A290001591CD;
+			remoteInfo = RNClip;
+		};
+		EFBEACDB2C81A291001591CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBEACB42C81A290001591CD;
+			remoteInfo = RNClip;
+		};
+		EFBEACE22C81A291001591CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBEACB42C81A290001591CD;
+			remoteInfo = RNClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFBEACE82C81A291001591CD /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				EFBEACE42C81A291001591CD /* RNClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* appclipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appclipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,12 +87,34 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = appclip/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-appclip-appclipTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appclip-appclipTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-appclip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip.debug.xcconfig"; path = "Target Support Files/Pods-appclip/Pods-appclip.debug.xcconfig"; sourceTree = "<group>"; };
+		445299982B980FBCAA373608 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = appclip/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-appclip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip.release.xcconfig"; path = "Target Support Files/Pods-appclip/Pods-appclip.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-appclip-appclipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip-appclipTests.debug.xcconfig"; path = "Target Support Files/Pods-appclip-appclipTests/Pods-appclip-appclipTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-appclip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appclip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F74B7EBDA25F7F609BDB356 /* Pods-appclip-RNClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip-RNClip.release.xcconfig"; path = "Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = appclip/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-appclip-appclipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip-appclipTests.release.xcconfig"; path = "Target Support Files/Pods-appclip-appclipTests/Pods-appclip-appclipTests.release.xcconfig"; sourceTree = "<group>"; };
+		931BC8FD8C9593306A896607 /* libPods-appclip-RNClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appclip-RNClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D015C54F98370ED2247ADF15 /* Pods-appclip-RNClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclip-RNClip.debug.xcconfig"; path = "Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EFBEACB52C81A290001591CD /* RNClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBEACB72C81A290001591CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFBEACB82C81A290001591CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFBEACBA2C81A290001591CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EFBEACBB2C81A290001591CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EFBEACBD2C81A290001591CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFBEACBE2C81A290001591CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFBEACC12C81A290001591CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBEACC32C81A291001591CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBEACC62C81A291001591CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBEACC82C81A291001591CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBEACC92C81A291001591CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFBEACCB2C81A291001591CD /* RNClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RNClip.entitlements; sourceTree = "<group>"; };
+		EFBEACD02C81A291001591CD /* RNClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBEACD42C81A291001591CD /* RNClipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNClipTests.m; sourceTree = "<group>"; };
+		EFBEACDA2C81A291001591CD /* RNClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBEACDE2C81A291001591CD /* RNClipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNClipUITests.m; sourceTree = "<group>"; };
+		EFBEACE02C81A291001591CD /* RNClipUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNClipUITestsLaunchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +131,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-appclip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACB22C81A290001591CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C5D6F5920475E153EFB53C /* libPods-appclip-RNClip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACCD2C81A291001591CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACD72C81A291001591CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +186,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				445299982B980FBCAA373608 /* PrivacyInfo.xcprivacy */,
 			);
 			name = appclip;
 			sourceTree = "<group>";
@@ -104,6 +197,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-appclip.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-appclip-appclipTests.a */,
+				931BC8FD8C9593306A896607 /* libPods-appclip-RNClip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +215,9 @@
 				13B07FAE1A68108700A75B9A /* appclip */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* appclipTests */,
+				EFBEACB62C81A290001591CD /* RNClip */,
+				EFBEACD32C81A291001591CD /* RNClipTests */,
+				EFBEACDD2C81A291001591CD /* RNClipUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -135,6 +232,9 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* appclip.app */,
 				00E356EE1AD99517003FC87E /* appclipTests.xctest */,
+				EFBEACB52C81A290001591CD /* RNClip.app */,
+				EFBEACD02C81A291001591CD /* RNClipTests.xctest */,
+				EFBEACDA2C81A291001591CD /* RNClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,8 +246,46 @@
 				5709B34CF0A7D63546082F79 /* Pods-appclip.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-appclip-appclipTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-appclip-appclipTests.release.xcconfig */,
+				D015C54F98370ED2247ADF15 /* Pods-appclip-RNClip.debug.xcconfig */,
+				6F74B7EBDA25F7F609BDB356 /* Pods-appclip-RNClip.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFBEACB62C81A290001591CD /* RNClip */ = {
+			isa = PBXGroup;
+			children = (
+				EFBEACB72C81A290001591CD /* AppDelegate.h */,
+				EFBEACB82C81A290001591CD /* AppDelegate.m */,
+				EFBEACBA2C81A290001591CD /* SceneDelegate.h */,
+				EFBEACBB2C81A290001591CD /* SceneDelegate.m */,
+				EFBEACBD2C81A290001591CD /* ViewController.h */,
+				EFBEACBE2C81A290001591CD /* ViewController.m */,
+				EFBEACC02C81A290001591CD /* Main.storyboard */,
+				EFBEACC32C81A291001591CD /* Assets.xcassets */,
+				EFBEACC52C81A291001591CD /* LaunchScreen.storyboard */,
+				EFBEACC82C81A291001591CD /* Info.plist */,
+				EFBEACC92C81A291001591CD /* main.m */,
+				EFBEACCB2C81A291001591CD /* RNClip.entitlements */,
+			);
+			path = RNClip;
+			sourceTree = "<group>";
+		};
+		EFBEACD32C81A291001591CD /* RNClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBEACD42C81A291001591CD /* RNClipTests.m */,
+			);
+			path = RNClipTests;
+			sourceTree = "<group>";
+		};
+		EFBEACDD2C81A291001591CD /* RNClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBEACDE2C81A291001591CD /* RNClipUITests.m */,
+				EFBEACE02C81A291001591CD /* RNClipUITestsLaunchTests.m */,
+			);
+			path = RNClipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,15 +323,75 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				EFBEACE82C81A291001591CD /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EFBEACE32C81A291001591CD /* PBXTargetDependency */,
 			);
 			name = appclip;
 			productName = appclip;
 			productReference = 13B07F961A680F5B00A75B9A /* appclip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EFBEACB42C81A290001591CD /* RNClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBEACE52C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClip" */;
+			buildPhases = (
+				EF1956CA9C46B4446A8DF64F /* [CP] Check Pods Manifest.lock */,
+				EFBEACEF2C81A63B001591CD /* Start Packager */,
+				EFBEACB12C81A290001591CD /* Sources */,
+				EFBEACB22C81A290001591CD /* Frameworks */,
+				EFBEACB32C81A290001591CD /* Resources */,
+				EFBEACF02C81AD24001591CD /* Bundle React Native code and images */,
+				3DD4C10CB4527E100A7E085B /* [CP] Embed Pods Frameworks */,
+				CC79A15CE255274D66B2E614 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNClip;
+			productName = RNClip;
+			productReference = EFBEACB52C81A290001591CD /* RNClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		EFBEACCF2C81A291001591CD /* RNClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBEACE92C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClipTests" */;
+			buildPhases = (
+				EFBEACCC2C81A291001591CD /* Sources */,
+				EFBEACCD2C81A291001591CD /* Frameworks */,
+				EFBEACCE2C81A291001591CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBEACD22C81A291001591CD /* PBXTargetDependency */,
+			);
+			name = RNClipTests;
+			productName = RNClipTests;
+			productReference = EFBEACD02C81A291001591CD /* RNClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFBEACD92C81A291001591CD /* RNClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBEACEC2C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClipUITests" */;
+			buildPhases = (
+				EFBEACD62C81A291001591CD /* Sources */,
+				EFBEACD72C81A291001591CD /* Frameworks */,
+				EFBEACD82C81A291001591CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBEACDC2C81A291001591CD /* PBXTargetDependency */,
+			);
+			name = RNClipUITests;
+			productName = RNClipUITests;
+			productReference = EFBEACDA2C81A291001591CD /* RNClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,6 +407,17 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					EFBEACB42C81A290001591CD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EFBEACCF2C81A291001591CD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFBEACB42C81A290001591CD;
+					};
+					EFBEACD92C81A291001591CD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFBEACB42C81A290001591CD;
 					};
 				};
 			};
@@ -227,6 +436,9 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* appclip */,
 				00E356ED1AD99517003FC87E /* appclipTests */,
+				EFBEACB42C81A290001591CD /* RNClip */,
+				EFBEACCF2C81A291001591CD /* RNClipTests */,
+				EFBEACD92C81A291001591CD /* RNClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +457,31 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				85C8BD5D328019B55C4C66DD /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACB32C81A290001591CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBEACC42C81A291001591CD /* Assets.xcassets in Resources */,
+				EFBEACC72C81A291001591CD /* Base in Resources */,
+				EFBEACC22C81A290001591CD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACCE2C81A291001591CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACD82C81A291001591CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +519,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appclip/Pods-appclip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD4C10CB4527E100A7E085B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -345,6 +599,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appclip-appclipTests/Pods-appclip-appclipTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CC79A15CE255274D66B2E614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appclip-RNClip/Pods-appclip-RNClip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +632,64 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appclip/Pods-appclip-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EF1956CA9C46B4446A8DF64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appclip-RNClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBEACEF2C81A63B001591CD /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"Starting React Native packager on port $RCT_METRO_PORT\"\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  if nc -w 5 -z localhost $RCT_METRO_PORT ; then\n    echo \"Metro bundler already running.\"\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+		};
+		EFBEACF02C81AD24001591CD /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nexport ENTRY_FILE=index.appclip.js\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -399,6 +728,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBEACB12C81A290001591CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBEACBF2C81A290001591CD /* ViewController.m in Sources */,
+				EFBEACB92C81A290001591CD /* AppDelegate.m in Sources */,
+				EFBEACCA2C81A291001591CD /* main.m in Sources */,
+				EFBEACBC2C81A290001591CD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACCC2C81A291001591CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBEACD52C81A291001591CD /* RNClipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBEACD62C81A291001591CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBEACE12C81A291001591CD /* RNClipUITestsLaunchTests.m in Sources */,
+				EFBEACDF2C81A291001591CD /* RNClipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -407,7 +764,41 @@
 			target = 13B07F861A680F5B00A75B9A /* appclip */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		EFBEACD22C81A291001591CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBEACB42C81A290001591CD /* RNClip */;
+			targetProxy = EFBEACD12C81A291001591CD /* PBXContainerItemProxy */;
+		};
+		EFBEACDC2C81A291001591CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBEACB42C81A290001591CD /* RNClip */;
+			targetProxy = EFBEACDB2C81A291001591CD /* PBXContainerItemProxy */;
+		};
+		EFBEACE32C81A291001591CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBEACB42C81A290001591CD /* RNClip */;
+			targetProxy = EFBEACE22C81A291001591CD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFBEACC02C81A290001591CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBEACC12C81A290001591CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBEACC52C81A291001591CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBEACC62C81A291001591CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -467,9 +858,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = C248P2BQTL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = appclip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "kuch v";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +874,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main;
 				PRODUCT_NAME = appclip;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -494,8 +888,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = C248P2BQTL;
 				INFOPLIST_FILE = appclip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "kuch v";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +903,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main;
 				PRODUCT_NAME = appclip;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,6 +914,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +942,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +962,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +983,11 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +995,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +1023,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +1036,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,8 +1056,223 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBEACE62C81A291001591CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D015C54F98370ED2247ADF15 /* Pods-appclip-RNClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = RNClip/RNClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RNClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = appclip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFBEACE72C81A291001591CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F74B7EBDA25F7F609BDB356 /* Pods-appclip-RNClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = RNClip/RNClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RNClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = appclip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EFBEACEA2C81A291001591CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.RNClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RNClip";
+			};
+			name = Debug;
+		};
+		EFBEACEB2C81A291001591CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.RNClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RNClip";
+			};
+			name = Release;
+		};
+		EFBEACED2C81A291001591CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.RNClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNClip;
+			};
+			name = Debug;
+		};
+		EFBEACEE2C81A291001591CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C248P2BQTL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appclip.main.RNClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNClip;
 			};
 			name = Release;
 		};
@@ -678,6 +1302,33 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBEACE52C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBEACE62C81A291001591CD /* Debug */,
+				EFBEACE72C81A291001591CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBEACE92C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBEACEA2C81A291001591CD /* Debug */,
+				EFBEACEB2C81A291001591CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBEACEC2C81A291001591CD /* Build configuration list for PBXNativeTarget "RNClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBEACED2C81A291001591CD /* Debug */,
+				EFBEACEE2C81A291001591CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
